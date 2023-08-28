@@ -1,0 +1,402 @@
+.one{
+    background-color: rgb(123, 123, 167);
+    width: 100%;
+    height: 78px;
+    /* margin-top: 3%; */
+}
+
+
+
+.form-title{
+    margin-left: 45%;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+
+}
+
+.tile{
+    margin-left: 45%;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+
+}
+
+.form-link{
+    margin-left: 30%;
+    color: white;
+    
+}
+
+
+.form-button{
+    margin-left: 25%;
+    margin-top: 5%;
+    width:270px ;
+    height: 34px;
+    /* background-color: rgb(207, 98, 116); */
+    /* color: white; */
+    border-color:   rgb(253, 6, 150) ;
+}
+
+
+
+.prof{
+    margin-left: 75%;
+    margin-top: 2%;
+    /* display: flex; */
+    position: fixed;
+    font-size: larger;
+    color: white;
+}
+
+.in{
+    margin-left: 85%;
+    /* padding-bottom: 12%; */
+    font-size: larger;
+    /* margin-bottom: 2%; */
+    margin-top: 2%;
+    color: white;
+    position: fixed;
+
+}
+
+#title-e{
+
+    border-color: white;
+    width: 156px;
+    margin-top: 2%;
+    position: fixed;
+    right: 50%;
+    height: 45px;
+}
+
+
+#description-e{
+
+    border-color: white;
+    width: 100px;
+    margin-top: 5%;
+    position: fixed;
+    right: 50%;
+    height: 45px;
+}
+
+
+#date-e{
+
+    border-color: white;
+    width: 100px;
+    margin-top: 10%;
+    position: fixed;
+    right: 50%;
+    height: 45px;
+}
+
+/* <a href="edit.html"> */
+
+
+.modal-footer{
+    position: relative;
+    margin-right: 5%;
+    padding-left: 23%;
+}
+
+
+img{
+    /* width: 80px;
+    height: 80px; */
+
+    position: fixed;
+    margin-left: 45px;
+    margin-top: 1%;
+    width: 150px;
+    height:60px;
+}
+
+.item{
+    margin-top: 50%;
+    margin-left: 100%;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.form-control{
+    margin-top:3%;
+    width: 336px;
+    margin-left: 10%;
+    height: 55px;
+}
+
+.list-group{
+    margin-left: 6%;
+}
+
+#cancel{
+    height: 35px;
+    width: 60px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 3%;
+    margin-bottom: 20%;
+}
+
+.two{
+     /* background-color:rgb(194, 53, 112); */
+    background-color: rgb(123, 123, 167); 
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 95px;
+}
+
+#set{
+    position: relative;
+    margin-left: 3%;
+}
+
+/* .modal{
+
+    width:900px;
+
+} */
+
+
+.task{
+    border-radius: 5px;
+    margin-left: 2%;
+    position: fixed;
+    margin-top: 1%;
+    height: 25px;
+    width: 50px;
+}
+
+
+.three{
+    /* background-color:rgb(194, 53, 112); */
+   background-color: rgb(123, 123, 167); 
+   padding-top: 0%;
+   /* margin-left: 20%; */
+   /* margin-right: 20%; */
+   /* padding-bottom: 95px; */
+}
+
+.word{
+    margin-left: 9%;
+    padding-top: 3%;
+    position: fixed;
+    top: 20%;
+    color: white;
+    
+}
+
+.create{
+    margin-top: 1%;
+    margin-left: 45%;
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.log{
+    margin-top: 1%;
+    margin-left: 45%;
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+#linkCreateAccount{
+    text-decoration: none;
+}
+
+#linkLogin{
+    text-decoration: none;
+}
+
+svg{
+    position: relative;
+    right: 267px;
+    
+
+}
+::placeholder{
+    left: 10%;
+    position: relative;
+    display: flex;
+
+}
+
+label{
+    color: white;
+    font-weight: bolder;
+}
+#verify{
+    margin-left: 25%;
+    margin-top: 3%;
+    height: 34px;
+    width: 270px;
+    border-color: white;
+}
+
+.eye{
+    position: relative;
+    left: 2%;
+    color: pink;
+    
+}
+
+.pen{
+    position: relative;
+    left: 5%;
+}
+
+.bin{
+    position: relative;
+    left: 7%;
+}
+
+#loginUsername{
+    margin-left: 25%;
+    margin-top: 4%;
+    height: 34px;
+    width: 270px;
+    border-color: white;
+}
+
+#loginPassword{
+    margin-left: 25%;
+    margin-top: 3%;
+    height: 34px;
+    width: 270px;
+    border-color: white;
+}
+
+#signupPassword{
+    margin-left: 25%;
+    margin-top: 3%;
+    height: 34px;
+    width: 270px;
+    border-color: white;
+}
+#signupUsername{
+    margin-left: 25%;
+    margin-top: 3%;
+    height: 34px;
+    width: 270px;
+    border-color: white;
+}
+.pass{
+    margin-left: 36%;
+}
+
+#name-input{
+    position: relative;
+    top: 12%;
+    left:6%;
+}
+
+#email-input{
+    position: relative;
+    top: 35%;
+    /* left:9%; */
+}
+
+#date-input{
+    position: relative;
+    margin-top: 8%;
+}
+#signupForm{
+    background-color: rgb(123, 123, 167);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4%;
+    height: 420px;
+    padding-top: 2%;
+}
+
+#loginForm{
+    background-color: rgb(123, 123, 167);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4%;
+    height: 420px;
+    padding-top: 2%;
+}
+
+.save{
+    height: 35px;
+    width: 60px;
+    position: relative;
+    margin-left: 89%;
+    top: 5%;
+}
+
+#tittle{
+    border-color: white;
+    width: 320px;
+    margin-top: 15%;
+    position: relative;
+    right: -1%;
+    height: 45px;
+}
+
+#description{
+    border-color: white;
+    width: 320px;
+    height: 100px;
+    margin-top: 3%;
+    position: relative;
+    right: 4%;
+}
+
+#date{
+    border-color: white;
+    width: 320px;
+    margin-top: 3%;
+    right: 2%;
+    position: relative;
+    height: 45px;
+}
+
+.t{
+    position: relative;
+    left: 9%;
+}
+
+.d{
+    position: relative;
+    left: 9%;
+}
+
+.du{
+    position: relative;
+    left: 20%;
+}
+
+.todo-button{
+    height: 35px;
+    width: 60px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 400px;
+    /* margin-top: 2%; */
+    /* margin-bottom: -1%; */
+}
+
+
+.th1{
+    position: relative;
+    right: 5%;
+}
+
+.th2{
+    margin-left: 7%;
+}

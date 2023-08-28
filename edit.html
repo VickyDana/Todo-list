@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit</title> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="one">
+        <img src="todo-logo.png" >
+        <h1 class="prof">PROFILE</h1> 
+        <h2 class="in">LOGOUT</h2>
+    </div>
+
+
+  
+
+    <div class="three">
+      <h4 class="word">Edit Item</h4>
+      <button id="set"   value="Reset form" onclick="reset()">Reset</button> 
+      <button class="task" onclick="editTask()">Save</button>
+
+      <form id="form">
+        <div class="form-input-group" id="editIndex">
+            <label class="t">Tittle</label>
+            <input type="text" class="pass" id="tit" placeholder="Tittle">
+            <div class="form-input-error-message"></div>
+        </div>
+    
+        <div class="form-input-group">
+            <label class="d">Description</label>
+            <input type="text" class="pass" id="des" placeholder="Description">
+            <div class="form-input-error-message"></div>
+        </div>
+    
+        <div class="form-input-group">
+            <label class="du">Due date</label>
+            <input type="date" class="pass" id="dae">
+            <div class="form-input-error-message"></div>
+        </div>
+    </form>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
+    <script src="list.js"></script>
+
+</body>
+</html>
