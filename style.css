@@ -66,39 +66,37 @@
 
 }
 
-#title-e{
+.tip{
 
     border-color: white;
-    width: 156px;
+    width: 250px;
     margin-top: 2%;
     position: fixed;
-    right: 50%;
+    right: 35%;
     height: 45px;
 }
 
 
-#description-e{
+.crip{
 
     border-color: white;
-    width: 100px;
-    margin-top: 5%;
+    width: 250px;
+    margin-top: 4%;
     position: fixed;
-    right: 50%;
-    height: 45px;
+    right: 35%;
+    height: 100px;
 }
 
 
-#date-e{
+.tea{
 
-    border-color: white;
-    width: 100px;
-    margin-top: 10%;
+    /* border-color: white; */
+    width: 250px;
+    margin-top: 15%;
     position: fixed;
-    right: 50%;
+    right: 35%;
     height: 45px;
 }
-
-/* <a href="edit.html"> */
 
 
 .modal-footer{
@@ -142,31 +140,25 @@ img{
     height: 35px;
     width: 60px;
     border-radius: 4px;
-    position: relative;
-    margin-left: 300px;
-    margin-top: 3%;
-    margin-bottom: 20%;
+    position: fixed;
+    margin-left: 20%;
+    margin-top: -2%;
+    /* margin-bottom: 20%; */
 }
 
 .two{
      /* background-color:rgb(194, 53, 112); */
     background-color: rgb(123, 123, 167); 
-    margin-top: 4%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-bottom: 95px;
+    /* margin-top: 4%; */
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+    padding-bottom: 7%;
 }
 
 #set{
     position: relative;
     margin-left: 3%;
 }
-
-/* .modal{
-
-    width:900px;
-
-} */
 
 
 .task{
@@ -188,6 +180,17 @@ img{
    /* padding-bottom: 95px; */
 }
 
+.four{
+        background-color: rgb(123, 123, 167);
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 4%;
+        height: 460px;
+        padding-top: 2%;
+
+
+}
+
 .word{
     margin-left: 9%;
     padding-top: 3%;
@@ -196,6 +199,73 @@ img{
     color: white;
     
 }
+
+.word-1{
+    margin-left: 9%;
+    padding-top: 3%;
+    position: fixed;
+    top: 20%;
+    color: white;
+    
+}
+
+
+#remove{
+
+    height: 35px;
+    width: 60px;
+    border-radius: 4px;
+    position: fixed;
+    margin-left: 40%;
+    margin-top: 1%;
+    /* margin-bottom: 20%; */
+
+}
+
+.add-button{
+    height: 35px;
+    width: 60px;
+    border-radius: 4px;
+    position: fixed;
+    margin-left: 45%;
+    margin-top: 1%;
+    /* margin-bottom: 20%; */
+}
+
+.btn_1{
+
+    height: 50px;
+    width: 90px;
+    border-radius: 4px;
+    position: fixed;
+    margin-left: 70%;
+    background-color: rgb(123, 123, 167);
+    margin-top: 3%;
+    text-decoration: none;
+    text-decoration-color: white;
+    text-decoration-line: none;
+    
+}
+
+.modal-dialog{
+    background-color: blue;
+}
+
+.tie{
+    position: relative;
+    margin-left: 7%;
+}
+
+.die{
+    position: relative;
+    margin-left: 7%;
+}
+
+.last{
+    position: relative;
+    margin-left: 7%;
+}
+
 
 .create{
     margin-top: 1%;
@@ -227,6 +297,7 @@ svg{
     
 
 }
+
 ::placeholder{
     left: 10%;
     position: relative;
@@ -238,6 +309,7 @@ label{
     color: white;
     font-weight: bolder;
 }
+
 #verify{
     margin-left: 25%;
     margin-top: 3%;
@@ -286,6 +358,7 @@ label{
     width: 270px;
     border-color: white;
 }
+
 #signupUsername{
     margin-left: 25%;
     margin-top: 3%;
@@ -293,6 +366,7 @@ label{
     width: 270px;
     border-color: white;
 }
+
 .pass{
     margin-left: 36%;
 }
@@ -313,6 +387,7 @@ label{
     position: relative;
     margin-top: 8%;
 }
+
 #signupForm{
     background-color: rgb(123, 123, 167);
     margin-left: 30%;
@@ -337,6 +412,11 @@ label{
     position: relative;
     margin-left: 89%;
     top: 5%;
+}
+
+
+.btn{
+    margin-right: 10%;
 }
 
 #tittle{
@@ -369,25 +449,29 @@ label{
 .t{
     position: relative;
     left: 9%;
+    margin-top: 10%;
+    top: 20%;
 }
 
 .d{
-    position: relative;
-    left: 9%;
+    position: fixed;
+    left: 35%;
+    margin-top: 6%;
 }
 
 .du{
     position: relative;
-    left: 20%;
+    left: 9%;
+    margin-top: 47%;
 }
 
 .todo-button{
     height: 35px;
     width: 60px;
     border-radius: 4px;
-    position: relative;
-    margin-left: 400px;
-    /* margin-top: 2%; */
+    position: fixed;
+    margin-left: 25%;
+    margin-top: -2%;
     /* margin-bottom: -1%; */
 }
 

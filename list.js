@@ -54,6 +54,26 @@ let loadData = () => {
             </td> 
         </tr>
 
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+       
+
 <div class="modal fade" id="staticBackdrop_${i}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -74,19 +94,19 @@ let loadData = () => {
           <form id="form">
             <div class="form-input-group" id="editIndex">
                 <label class="t">Tittle</label>
-                <input type="text" class="pass" id="title-e_${i}" placeholder="Tittle" value="${data.title}">
+                <input type="text" class="tip" id="title-e_${i}" placeholder="Tittle" value="${data.title}">
                 <div class="form-input-error-message"></div>
             </div>
         
             <div class="form-input-group">
                 <label class="d">Description</label>
-                <input type="text" class="pass" id="description-e_${i}" placeholder="Description" value="${data.description}">
+                <input type="text" class="crip" id="description-e_${i}" placeholder="Description" value="${data.description}">
                 <div class="form-input-error-message"></div>
             </div>
         
             <div class="form-input-group">
                 <label class="du">Due date</label>
-                <input type="date" class="pass" id="date-e_${i}" value="${data.date}">
+                <input type="date" class="tea" id="date-e_${i}" value="${data.date}">
                 <div class="form-input-error-message"></div>
             </div>
         </form>
@@ -128,8 +148,8 @@ let viewTask = (e, i) => {
 
         `
         document.querySelector('.modal-footer').innerHTML =`
-        <p>${task.date}</p>
-        hgjmhjm
+        <p>${task.date} </p>
+        
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
        `
         
